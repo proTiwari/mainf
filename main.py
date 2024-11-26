@@ -11,6 +11,7 @@ weight = st.number_input("Enter your weight (in kgs)")
 # radio button to choose height format
 status = st.radio('Select your height format: ',
                   ('cms', 'meters', 'feet'))
+                  
 
 # compare status value
 if(status == 'cms'):
